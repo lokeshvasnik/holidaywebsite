@@ -21,9 +21,6 @@ a {
     transition: all 0.3s ease;
     border-radius: 20px 0 20px 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: #c7892b;
     color: white;
     font-size: 17px;
@@ -37,14 +34,10 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    text-align: center;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     border-radius: 20px 0 20px 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: #09913c;
     color: white;
     font-size: 17px;

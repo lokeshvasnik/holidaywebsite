@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar text-light navbar-expand-lg ">
-                <a class="navbar-brand" href="#">
-                    <img className="w-25" src={logo} alt="" />
+                <a className="navbar-brand" href="#">
+                    <img className="w-25" src={logo} alt="logo" />
                 </a>
                 <div className="container-fluid">
                     <button

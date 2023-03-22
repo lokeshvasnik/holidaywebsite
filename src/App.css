@@ -10,3 +10,7 @@
 body {
     background-color: var(--dark);
 }
+
+.map {
+    height: 100vh;
+}
