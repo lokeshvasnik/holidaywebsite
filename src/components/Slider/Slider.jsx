@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import theraphy from '../../assets/therapy.jpg';
+import theraphy from '../../assets/therapy.webp';
 
 import './Slider.css';
 const Slider = () => {

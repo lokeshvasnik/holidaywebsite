@@ -1,5 +1,5 @@
 import React from 'react';
-import building from '../../assets/building.jpg';
+import building from '../../assets/building.webp';
 import './About.css';
 const About = () => {
     return <></>;

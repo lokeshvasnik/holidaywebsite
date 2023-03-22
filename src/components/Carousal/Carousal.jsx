@@ -1,5 +1,5 @@
 import React from 'react';
-import massage from '../../assets/massage.jpeg';
+import massage from '../../assets/massage.webp';
 const Carousal = () => {
     return (
         <div>

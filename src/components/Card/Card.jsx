@@ -1,5 +1,5 @@
 import React from 'react';
-import theraphy from '../../assets/therapy.jpg';
+import theraphy from '../../assets/therapy.webp';
 import './Card.css';
 const Card = () => {
     return (
