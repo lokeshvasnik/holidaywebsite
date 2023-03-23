@@ -6,11 +6,16 @@
 .nav-link {
     display: inline-block;
     position: relative;
-    color: var(--pure) !important;
+    color: var(--navbar-primary) !important;
     font-size: 1.125rem;
+    margin: 0 0.875rem;
 }
 
 .nav-link:hover {
+    color: var(--navbar-hover) !important;
+}
+
+.active {
     color: var(--navbar) !important;
 }
 
@@ -22,7 +27,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--navbar);
+    background-color: var(--navbar-hover);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

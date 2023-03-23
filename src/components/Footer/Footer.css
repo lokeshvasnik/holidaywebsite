@@ -1,0 +1,11 @@
+.list-unstyled {
+    cursor: pointer;
+}
+
+.footer:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 160px;
+    background: url('../../assets/footer-bg.png') bottom center/cover;
+}

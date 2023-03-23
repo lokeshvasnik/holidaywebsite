@@ -1,13 +1,19 @@
 import React from 'react';
 import logo from '../../assets/logo.webp';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 const Navbar = () => {
     return (
         <>
             <nav className="navbar text-light navbar-expand-lg ">
-                <a className="navbar-brand" href="#">
+                <a
+                    className=" d-flex align-items-center justify-content-center navbar-brand"
+                    href="#"
+                >
                     <img className="w-25" src={logo} alt="logo" />
                 </a>
+
                 <div className="container-fluid">
                     <button
                         className="navbar-toggler"
@@ -24,35 +30,35 @@ const Navbar = () => {
                         className="collapse navbar-collapse"
                         id="navbarSupportedContent"
                     >
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a
-                                    className="nav-link active"
+                                <NavLink
+                                    className="nav-link"
                                     aria-current="page"
-                                    href="#"
+                                    to="/"
                                 >
                                     Home
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/about">
                                     About Us
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/services">
                                     Our Services
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/team">
                                     Our Team
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <NavLink className="nav-link" to="/contact">
                                     Contact Us
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

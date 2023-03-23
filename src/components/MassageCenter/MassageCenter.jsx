@@ -5,7 +5,7 @@ import './MassageCenter.css';
 const MassageCenter = () => {
     return (
         <>
-            <div className="w-75 container">
+            <div className="w-100 container">
                 <h1 className="text-center text-white">
                     About Our Massage Center
                 </h1>
