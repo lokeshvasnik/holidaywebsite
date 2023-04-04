@@ -2,3 +2,13 @@
     font-size: 1.25rem;
     line-height: 1.5;
 }
+
+.massageCenter {
+    max-height: 250px;
+    overflow: hidden;
+    background-image: url(../../assets/offers.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}

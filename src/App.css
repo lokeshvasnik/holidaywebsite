@@ -15,3 +15,27 @@ body {
 .map {
     height: 100vh;
 }
+
+@media only screen and (max-width: 991px) {
+    .cardColor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageRelative {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageRelative img {
+        width: 100%;
+    }
+
+    .cardHeading {
+        position: static;
+    }
+}

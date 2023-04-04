@@ -1,6 +1,23 @@
 .cardColor {
     background-color: #282828;
     color: white;
+    position: relative;
+    margin: 0px 37px;
+}
+
+.imageRelative {
+    position: absolute;
+    top: 19%;
+    left: -6%;
+}
+
+.cardHeading {
+    flex-direction: column;
+    position: relative;
+    right: -32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -10,7 +27,6 @@ a {
 
 .btn__primary {
     height: 2.5rem;
-    width: 13rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -28,7 +44,6 @@ a {
 
 .btn__secondary {
     height: 2.5rem;
-    width: 13rem;
     text-decoration: none;
     display: flex;
     justify-content: center;

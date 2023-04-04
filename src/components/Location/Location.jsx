@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Location.css';
 const Location = () => {
     return (
         <>
-            <div className="container-fluid ">
+            <div className="container-fluid">
                 <h1 className="text-center text-white py-5">
                     Our Massage Spa Location
                 </h1>

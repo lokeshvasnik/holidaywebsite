@@ -11,7 +11,7 @@ const Navbar = () => {
                     className=" d-flex align-items-center justify-content-center navbar-brand"
                     href="#"
                 >
-                    <img className="w-25" src={logo} alt="logo" />
+                    <img className="w-50" src={logo} alt="logo" />
                 </a>
 
                 <div className="container-fluid">
@@ -63,6 +63,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
+                <a className="btn__primary mx-5 py-4">
+                    <i class="fa-solid fa-phone mx-3" />
+                    Book Now
+                </a>
             </nav>
         </>
     );

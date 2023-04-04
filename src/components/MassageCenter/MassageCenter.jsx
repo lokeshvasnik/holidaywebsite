@@ -1,11 +1,10 @@
 import React from 'react';
-
 import building from '../../assets/building.webp';
 import './MassageCenter.css';
 const MassageCenter = () => {
     return (
         <>
-            <div className="w-100 container">
+            <div className="w-100 container ">
                 <h1 className="text-center text-white">
                     About Our Massage Center
                 </h1>
@@ -42,7 +41,7 @@ const MassageCenter = () => {
             <div className="container py-5">
                 <img className="w-100" src={building} alt="building" />
             </div>
-            <div className="text-center py-5">
+            <div className="text-center py-5 massageCenter ">
                 <h1 className="text-white my-5">
                     Our Massage Center & SPA Offers
                 </h1>
